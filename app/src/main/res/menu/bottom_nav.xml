@@ -16,13 +16,13 @@
 
     <item
         android:id="@+id/deliveryItemBottomNav"
-        android:icon="@drawable/delovery"
+        android:icon="@drawable/delivery"
         android:title="@string/delivery"
         app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/contactsItemBottomNav"
-        android:icon="@drawable/contacts"
+        android:icon="@drawable/contact"
         android:title="@string/contacts"
         app:showAsAction="ifRoom"/>
 
