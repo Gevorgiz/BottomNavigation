@@ -4,4 +4,6 @@
     <string name="catalog">CATALOG</string>
     <string name="delivery">DELIVERY</string>
     <string name="contacts">CONTACTS</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="settings">SETTINGS</string>
 </resources>
