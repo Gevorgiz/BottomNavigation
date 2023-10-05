@@ -2,6 +2,7 @@ package com.example.bottomnavigation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.ContactsContract.Contacts
 import com.example.bottomnavigation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.deliveryItemBottomNav -> supportFragmentManager.beginTransaction()
                     .replace(R.id.content, Delivery()).commit()
 
-                R.id.contactsItemBottomNav -> supportFragmentManager.beginTransaction()
+                R.id.contactItemBottomNav -> supportFragmentManager.beginTransaction()
                     .replace(R.id.content, Contact()).commit()
 
 

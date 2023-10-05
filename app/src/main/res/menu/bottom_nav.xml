@@ -21,7 +21,7 @@
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/contactsItemBottomNav"
+        android:id="@+id/contactItemBottomNav"
         android:icon="@drawable/contact"
         android:title="@string/contacts"
         app:showAsAction="ifRoom"/>
